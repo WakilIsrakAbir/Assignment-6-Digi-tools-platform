@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Digi-Writer Pro",
+    "description": "AI-powered content generation tool for bloggers and marketers.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "badge-secondary",
+    "features": ["Unlimited words", "SEO optimization", "Export to PDF & Word"],
+    "icon": "https://img.icons8.com/fluency/48/content.png"
+  },
+  {
+    "id": 2,
+    "name": "SEO Master Suite",
+    "description": "Complete toolkit to rank your website on the first page of Google.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "badge-primary",
+    "features": ["Keyword tracker", "Backlink analysis", "Weekly site audits"],
+    "icon": "https://img.icons8.com/fluency/48/search-engine-optimization.png"
+  },
+  {
+    "id": 3,
+    "name": "Design UI Kit",
+    "description": "Massive library of pre-built UI components for web developers.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "badge-accent",
+    "features": ["500+ Components", "Figma & Sketch files", "Free lifetime updates"],
+    "icon": "https://img.icons8.com/fluency/48/design.png"
+  },
+  {
+    "id": 4,
+    "name": "Cloud Storage Max",
+    "description": "Secure, encrypted cloud storage for all your digital assets.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "badge-info",
+    "features": ["2TB Storage", "End-to-end encryption", "File sharing links"],
+    "icon": "https://img.icons8.com/fluency/48/cloud-storage.png"
+  },
+  {
+    "id": 5,
+    "name": "Email Marketing Hub",
+    "description": "Automate your email campaigns and grow your subscriber list.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "badge-secondary",
+    "features": ["A/B Testing", "10k Subscribers", "Custom templates"],
+    "icon": "https://img.icons8.com/fluency/48/email-campaign.png"
+  },
+  {
+    "id": 6,
+    "name": "Video Edit Cloud",
+    "description": "Edit videos directly in your browser with pro-level tools.",
+    "price": 89,
+    "period": "one-time",
+    "tag": "Hot",
+    "tagType": "badge-error",
+    "features": ["4K Export", "Stock footage library", "Auto-captions"],
+    "icon": "https://img.icons8.com/fluency/48/video-editing.png"
+  }
+]
