@@ -6,7 +6,7 @@ import RocketImage from "../../assets/products/rocket.png"
 const Steps = () => {
     return (
       <section className="bg-[#fafafa] py-20 px-6">
-        <div className="max-w-6xl mx-auto">
+        <div className="w-[90%] mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 tracking-tight">
               Get Started In 3 Steps
