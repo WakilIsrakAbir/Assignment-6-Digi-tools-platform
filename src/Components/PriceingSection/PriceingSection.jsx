@@ -26,7 +26,7 @@ const PriceingSection = () => {
                 </p>
               </div>
               <div className="mb-6">
-                <span className="text-5xl font-extrabold text-gray-900">
+                <span className="text-5xl font-bold text-gray-900">
                   $0
                 </span>
                 <span className="text-sm text-gray-400 font-medium">
@@ -67,7 +67,7 @@ const PriceingSection = () => {
                 </p>
               </div>
               <div className="mb-6">
-                <span className="text-5xl font-extrabold">$29</span>
+                <span className="text-5xl font-bold">$29</span>
                 <span className="text-sm text-violet-300 font-medium">
                   /Month
                 </span>
@@ -113,7 +113,7 @@ const PriceingSection = () => {
                 </p>
               </div>
               <div className="mb-6">
-                <span className="text-5xl font-extrabold text-gray-900">
+                <span className="text-5xl font-bold text-gray-900">
                   $99
                 </span>
                 <span className="text-sm text-gray-400 font-medium">
