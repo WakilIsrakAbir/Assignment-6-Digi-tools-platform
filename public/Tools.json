@@ -6,8 +6,12 @@
     "price": 29,
     "period": "monthly",
     "tag": "Popular",
-    "tagType": "badge-secondary",
-    "features": ["Unlimited words", "SEO optimization", "Export to PDF & Word"],
+    "tagType": "bg-violet-100 text-violet-600",
+    "features": [
+      "Unlimited words",
+      "SEO optimization",
+      "Export to PDF & Word"
+    ],
     "icon": "https://img.icons8.com/fluency/48/content.png"
   },
   {
@@ -17,9 +21,13 @@
     "price": 99,
     "period": "yearly",
     "tag": "Best Seller",
-    "tagType": "badge-primary",
-    "features": ["Keyword tracker", "Backlink analysis", "Weekly site audits"],
-    "icon": "https://img.icons8.com/fluency/48/search-engine-optimization.png"
+    "tagType": "bg-orange-100 text-orange-600",
+    "features": [
+      "Keyword tracker",
+      "Backlink analysis",
+      "Weekly site audits"
+    ],
+    "icon": "https://img.icons8.com/color/48/bar-chart.png"
   },
   {
     "id": 3,
@@ -28,8 +36,12 @@
     "price": 49,
     "period": "one-time",
     "tag": "New",
-    "tagType": "badge-accent",
-    "features": ["500+ Components", "Figma & Sketch files", "Free lifetime updates"],
+    "tagType": "bg-green-100 text-green-600",
+    "features": [
+      "500+ Components",
+      "Figma & Sketch files",
+      "Free lifetime updates"
+    ],
     "icon": "https://img.icons8.com/fluency/48/design.png"
   },
   {
@@ -39,8 +51,12 @@
     "price": 15,
     "period": "monthly",
     "tag": "Trending",
-    "tagType": "badge-info",
-    "features": ["2TB Storage", "End-to-end encryption", "File sharing links"],
+    "tagType": "bg-blue-100 text-blue-600",
+    "features": [
+      "2TB Storage",
+      "End-to-end encryption",
+      "File sharing links"
+    ],
     "icon": "https://img.icons8.com/fluency/48/cloud-storage.png"
   },
   {
@@ -50,9 +66,13 @@
     "price": 199,
     "period": "yearly",
     "tag": "Popular",
-    "tagType": "badge-secondary",
-    "features": ["A/B Testing", "10k Subscribers", "Custom templates"],
-    "icon": "https://img.icons8.com/fluency/48/email-campaign.png"
+    "tagType": "bg-violet-100 text-violet-600",
+    "features": [
+      "A/B Testing",
+      "10k Subscribers",
+      "Custom templates"
+    ],
+    "icon": "https://img.icons8.com/color/48/new-post.png"
   },
   {
     "id": 6,
@@ -61,8 +81,12 @@
     "price": 89,
     "period": "one-time",
     "tag": "Hot",
-    "tagType": "badge-error",
-    "features": ["4K Export", "Stock footage library", "Auto-captions"],
+    "tagType": "bg-red-100 text-red-600",
+    "features": [
+      "4K Export",
+      "Stock footage library",
+      "Auto-captions"
+    ],
     "icon": "https://img.icons8.com/fluency/48/video-editing.png"
   }
 ]
