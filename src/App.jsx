@@ -1,4 +1,5 @@
 import './App.css'
+import Card from './Components/Card/Card'
 import ExploreOption from './Components/ExploreOption/ExploreOption'
 import Footer from './Components/Footer/Footer'
 import Hero from './Components/Hero/Hero'
@@ -24,6 +25,7 @@ function App() {
       <Hero></Hero>
       <MiddlePart></MiddlePart>
       <Tools toolPromise={toolPromise}></Tools>
+      <Card></Card>
       <Steps></Steps>
       <PriceingSection></PriceingSection>
       <ExploreOption></ExploreOption>
