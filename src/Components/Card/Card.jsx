@@ -1,9 +1,17 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Card = ({ cards, setCards }) => {
   const totalPrice = cards.reduce((sum, item) => sum + item.price, 0);
   const handlePayment = () => {
-    setCards([])
+    setCards([]);
+    toast("Proceed Successfull")
+  };
+  const handleDelete = (item) => {
+    const filteredArray = cards.filter(c => c.id !== item.id);
+    // console.log(filteredArray);
+    setCards(filteredArray);
+    toast.success("Item Removed");
   }
   return (
     <div className="w-[90%] mx-auto p-8 rounded-4xl my-8 border-2 border-gray-300">
@@ -35,7 +43,7 @@ const Card = ({ cards, setCards }) => {
                     <p className="text-gray-600"> ${item.price} </p>
                   </div>
                 </div>
-                <button className="btn text-pink-500 text-xl border-none  bg-gray-100 rounded-4xl hover:bg-pink-200">
+                <button onClick={()=>handleDelete(item)} className="btn text-red-600 text-xl border-none  bg-gray-100 rounded-4xl hover:bg-pink-200">
                   Remove
                 </button>
               </div>

@@ -27,13 +27,13 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar cards={cards}></Navbar>
       <Hero></Hero>
       <MiddlePart></MiddlePart>
       <ToolsHeading></ToolsHeading>
 
       <div className="">
-        <Tabs setActiveTab={setActiveTab}></Tabs>
+        <Tabs setActiveTab={setActiveTab} cards={cards}></Tabs>
       </div>
 
       {activeTab === "Tools" ? (

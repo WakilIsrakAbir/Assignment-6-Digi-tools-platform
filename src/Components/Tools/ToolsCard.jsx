@@ -1,11 +1,20 @@
 import React from 'react';
 import { useState } from "react";
+import { toast } from 'react-toastify';
 
 const ToolsCard = ({ tool, cards, setCards }) => {
   const [isBuy, setIsBuy] = useState(false);
   const handleSelected = () => {
     setIsBuy(true);
-    setCards([...cards, tool])
+
+    const isFound = cards.find(item => item.id === tool.id)
+    if(isFound) {
+        toast.error("Item Already In Card");
+        return;
+    }
+
+    setCards([...cards, tool]);
+    toast.success("Item Added to Card")
   };
 
   return (
