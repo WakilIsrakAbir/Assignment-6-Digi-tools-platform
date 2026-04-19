@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import Card from './Components/Card/Card'
 import ExploreOption from './Components/ExploreOption/ExploreOption'
@@ -8,6 +9,8 @@ import Navbar from './Components/Navbar/Navbar'
 import PriceingSection from './Components/PriceingSection/PriceingSection'
 import Steps from './Components/Steps/Steps'
 import Tools from './Components/Tools/Tools'
+import Tabs from './Components/Tools/Tabs'
+import ToolsHeading from './Components/Tools/ToolsHeading'
 
 
 const getTools = async () => {
@@ -18,14 +21,33 @@ const getTools = async () => {
 const toolPromise = getTools();
 
 function App() {
+  const [activeTab, setActiveTab] = useState("Tools");
+  const [cards, setCards] = useState([]);
+  // console.log(cards);
 
   return (
     <>
       <Navbar></Navbar>
       <Hero></Hero>
       <MiddlePart></MiddlePart>
-      <Tools toolPromise={toolPromise}></Tools>
-      <Card></Card>
+      <ToolsHeading></ToolsHeading>
+
+      <div className="">
+        <Tabs setActiveTab={setActiveTab}></Tabs>
+      </div>
+
+      {activeTab === "Tools" ? (
+        <Tools
+          toolPromise={toolPromise}
+          cards={cards}
+          setCards={setCards}
+        ></Tools>
+      ) : null}
+
+      {activeTab === "Card" ? (
+        <Card cards={cards} setCards={setCards}></Card>
+      ) : null}
+
       <Steps></Steps>
       <PriceingSection></PriceingSection>
       <ExploreOption></ExploreOption>

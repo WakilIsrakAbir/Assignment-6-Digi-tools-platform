@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Tabs = () => {
+const Tabs = ({setActiveTab}) => {
     return (
       <div className="tabs tabs-box justify-center bg-transparent py-8 gap-4">
         <input
@@ -9,12 +9,14 @@ const Tabs = () => {
           className="tab rounded-4xl px-20 text-2xl font-semibold"
           aria-label="Tools"
           defaultChecked
+          onClick={() => setActiveTab("Tools")}
         />
         <input
           type="radio"
           name="my_tabs_1"
           className="tab rounded-4xl px-20 text-2xl font-semibold"
           aria-label="Card"
+          onClick={() => setActiveTab("Card")}
         />
       </div>
     );
