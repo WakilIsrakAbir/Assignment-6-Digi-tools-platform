@@ -5,7 +5,7 @@ import { CiPlay1 } from "react-icons/ci";
 
 const Hero = () => {
     return (
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-[90%] mx-auto items-center mt-20">
+      <div className="flex flex-col md:flex-row justify-between items-center w-[90%] mx-auto mt-20 gap-10">
         <div className="">
           <p className="bg-purple-100 px-4 py-1 rounded-4xl font-semibold text-purple-600 w-fit">
             <span>New: AI-Powered Tools Available</span>
